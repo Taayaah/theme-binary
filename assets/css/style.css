@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(http://fonts.googleapis.com/css?family=Pompiere|Shadows+Into+Light+Two|Open+Sans:300italic,300,400);
 /**
  * Page styles
  */
@@ -2353,9 +2353,8 @@ body {
   color: #636363;
   line-height: 1.625;
   font-family: 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-size: 0.875rem;
-  background-color: #f3f0eb;
+  font-size: 15px;
+  font-size: 1rem;
 }
 /**
  * Global
@@ -2369,7 +2368,7 @@ h5,
 h6 {
   margin: 8px 0;
   color: #636363;
-  font-family: 'EB Garamond', Georgia, Times, serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.4;
   font-weight: normal;
 }
@@ -2444,13 +2443,13 @@ a {
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   -webkit-transform: translate3d(0, 0, 0);
-  color: #b22130;
+  color: rgb(28, 131, 165);
   text-decoration: none;
 }
 a:hover,
 a:active,
 a:focus {
-  color: #cd4654;
+  color:rgb(60,62,64);
 }
 ul,
 ol {
@@ -2630,6 +2629,8 @@ body {
   padding-top: 1.875rem;
   padding-bottom: 30px;
   padding-bottom: 1.875rem;
+  border-top:5px solid rgb(255,199,0);
+  background-color: rgb(161,204,218);
 }
 /* Header */
 .site-header,
@@ -2638,10 +2639,7 @@ body {
   margin-bottom: 1.875rem;
 }
 .site-header {
-  background: #ffffff;
-  border-bottom: solid #d7d7d7;
-  border-bottom-width: 2px;
-  border-bottom-width: 0.125rem;
+  background: rgb(238,246,248);
   /* Site nav */
 }
 .site-header .header-top {
@@ -2651,10 +2649,13 @@ body {
 .site-header .header-top h1 {
   padding-top: 15px;
   padding-top: 0.9375rem;
-  text-transform: uppercase;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size:5rem;
+  font-weight:600;
+  letter-spacing: 5px;
 }
 .site-header .header-top h1 a {
-  color: #111111;
+  color:rgb(81, 113, 134);
 }
 .site-header .header-top h2 {
   padding-top: 5px;
@@ -2683,7 +2684,7 @@ body {
 }
 .site-header .nav-menu > li > a:hover,
 .site-header .nav-menu > li > a.active {
-  color: #cd4654;
+  color:rgb(60,62,64);
 }
 /* Footer */
 .site-footer {
@@ -2692,9 +2693,6 @@ body {
   font-size: 12px;
   font-size: 0.75rem;
   text-align: center;
-  border-bottom: solid #d7d7d7;
-  border-bottom-width: 2px;
-  border-bottom-width: 0.125rem;
 }
 .site-footer p {
   margin: 0;
@@ -2711,9 +2709,6 @@ body {
   padding: 30px;
   padding: 1.875rem;
   background-color: #ffffff;
-  border-bottom: solid #d7d7d7;
-  border-bottom-width: 2px;
-  border-bottom-width: 0.125rem;
 }
 .post-single {
   margin: 0 0 10px;
@@ -2766,7 +2761,7 @@ body {
   font-size: 11px;
   font-size: 0.6875rem;
   text-transform: uppercase;
-  color: #b22130;
+  color: rgb(28, 131, 165);
 }
 .post-metadata:after {
   visibility: hidden;
@@ -2950,9 +2945,6 @@ body {
   margin-bottom: 10px;
   margin-bottom: 0.625rem;
   text-align: center;
-  border-bottom: solid #d7d7d7;
-  border-bottom-width: 2px;
-  border-bottom-width: 0.125rem;
 }
 .blog-pagination:after {
   visibility: hidden;
@@ -3021,9 +3013,6 @@ body {
   margin-bottom: 10px;
   margin-bottom: 0.625rem;
   background: #ffffff;
-  border-bottom: solid #d7d7d7;
-  border-bottom-width: 2px;
-  border-bottom-width: 0.125rem;
 }
 .page-title {
   color: #111111;
@@ -3035,9 +3024,6 @@ body {
   margin-bottom: 1.875rem;
   background: #ffffff;
   padding: 0;
-  border-bottom: solid #d7d7d7;
-  border-bottom-width: 2px;
-  border-bottom-width: 0.125rem;
 }
 .widget ul {
   list-style-type: none;
@@ -3060,7 +3046,7 @@ body {
   padding: 0.9375rem;
   font-weight: normal;
   color: #252525;
-  background: #ffffff;
+  background:rgb(255,199,0);;
   text-align: center;
 }
 .widget-title a {
